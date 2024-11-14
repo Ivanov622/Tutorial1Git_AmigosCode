@@ -14,7 +14,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function AdminIndex() {
   const [openMenu, setOpenMenu] = useState(false)
-
+<!-- Cambio 1-->
   return (
     <div className="app">
         <MenuAdmin openMenu={openMenu} setOpenMenu={setOpenMenu} />
